@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrap {
+  margin-top: 30px;
+}
+
+.tab {
+  float: left;
+  border-left: 1px solid #484748;
+  border-top: 1px solid #484748;
+  background: #dbd4dd;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+.header{
+
+}
+
+.header:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.tab.active {
+  background: #fff;
+}
+
+.tab:last-child {
+  border-right:1px solid #484748;
+}
+
+.content {
+  border: 1px solid #484748;
+  width:300px;
+  height: 200px;
+  background: #fff;
+}
+
+.panel {
+  padding: 30px;
+  background: #fff;
+  display: none;
+}
+
+.panel.active {
+  display: block;
+}
